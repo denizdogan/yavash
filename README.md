@@ -2,6 +2,8 @@
 
 Zero-configuration throttling HTTP proxy.
 
+[![Docker](https://github.com/denizdogan/yavash/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/denizdogan/yavash/actions/workflows/docker-ci.yml)
+
 ## Installation
 
 ### Command line
