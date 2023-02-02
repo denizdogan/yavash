@@ -9,18 +9,21 @@ Zero-configuration throttling HTTP proxy.
 ### Command line
 
 ```console
-$ deno install --allow-net --allow-read https://github.com/denizdogan/yavash/main.ts
+$ deno install -A https://github.com/denizdogan/yavash/main.ts
 $ yavash [--port=3123]
 ```
 
 ### Docker
 
 ```console
+# pull from github container registry
+$ docker pull ghcr.io/denizdogan/yavash:latest
+
 # listen on port 3123
-$ docker run -p 3123:3123 denizdogan/yavash:latest
+$ docker run -p 3123:3123 ghcr.io/denizdogan/yavash:latest
 
 # listen on port 8811
-$ docker run -p 8811:3123 denizdogan/yavash:latest
+$ docker run -p 8811:3123 ghcr.io/denizdogan/yavash:latest
 ```
 
 ## Configuration
@@ -38,14 +41,24 @@ Configuration options:
 
 ## Development
 
+Run tests and benchmarks:
+
 ```console
 $ deno run test -A
 $ deno run bench -A
 ```
 
+Build local Docker image:
+
 ```console
-$ docker build -t "yavash:$RELEASE_VERSION" \
+$ docker build -t yavash:local \
     --build-arg=YAVASH_LOG_ENABLED=1 \
     --build-arg=YAVASH_PORT=3123 \
     .
+```
+
+Run GitHub Actions in local Docker:
+
+```console
+$ act --container-architecture linux/amd64
 ```
