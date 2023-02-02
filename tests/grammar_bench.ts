@@ -18,7 +18,7 @@ const urlWithYavashTarget = fc.webUrl({ withQueryParameters: true }).map(
 Deno.bench({
   name: "parse 100 urls",
   fn: (): void => {
-    fc.sample(urlWithYavashTarget, 1000).map((str) => {
+    fc.sample(urlWithYavashTarget, 100).map((str) => {
       const yavash = new URL(str).searchParams.get("__YAVASH__")
       grammar.match(yavash!)
     })
