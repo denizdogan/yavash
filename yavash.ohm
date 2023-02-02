@@ -1,0 +1,37 @@
+Yavash {
+  program = instr*
+  instr = stmt instr_end
+  instr_end = instr_sep
+            | end
+
+  // expressions
+  expr = numeric
+       | string
+       | plain
+       | nothing
+  numeric = "-" number  -- signed
+           | number     -- unsigned
+  number = float
+         | integer
+  integer = digit+
+  float = integer "." integer
+
+  str_delim = "\""
+  string = str_delim (~str_delim any)* str_delim
+
+  plain = (~plain_forbid any)+
+  plain_forbid = #space | #str_delim | #instr_sep | #param_sep
+
+
+  // statements
+  stmt = ident #params*
+  params = param_sep #expr
+
+  // basics
+  ident = (letter #alnum*)
+
+  // constants
+  instr_sep = ","
+  param_sep = ":"
+  nothing = ""
+}

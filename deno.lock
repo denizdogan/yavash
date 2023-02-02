@@ -1,0 +1,67 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/std@0.132.0/fmt/colors.ts": "30455035d6d728394781c10755351742dd731e3db6771b1843f9b9e490104d37",
+    "https://deno.land/std@0.175.0/async/abortable.ts": "73acfb3ed7261ce0d930dbe89e43db8d34e017b063cf0eaa7d215477bf53442e",
+    "https://deno.land/std@0.175.0/async/deadline.ts": "b98e50d2c42399af03ad13bbb8cf59dadb9f0cd5d70648cc0c3b9202d75ab565",
+    "https://deno.land/std@0.175.0/async/debounce.ts": "adab11d04ca38d699444ac8a9d9856b4155e8dda2afd07ce78276c01ea5a4332",
+    "https://deno.land/std@0.175.0/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
+    "https://deno.land/std@0.175.0/async/delay.ts": "73aa04cec034c84fc748c7be49bb15cac3dd43a57174bfdb7a4aec22c248f0dd",
+    "https://deno.land/std@0.175.0/async/mod.ts": "f04344fa21738e5ad6bea37a6bfffd57c617c2d372bb9f9dcfd118a1b622e576",
+    "https://deno.land/std@0.175.0/async/mux_async_iterator.ts": "70c7f2ee4e9466161350473ad61cac0b9f115cff4c552eaa7ef9d50c4cbb4cc9",
+    "https://deno.land/std@0.175.0/async/pool.ts": "fd082bd4aaf26445909889435a5c74334c017847842ec035739b4ae637ae8260",
+    "https://deno.land/std@0.175.0/async/retry.ts": "5efa3ba450ac0c07a40a82e2df296287b5013755d232049efd7ea2244f15b20f",
+    "https://deno.land/std@0.175.0/async/tee.ts": "47e42d35f622650b02234d43803d0383a89eb4387e1b83b5a40106d18ae36757",
+    "https://deno.land/std@0.175.0/fmt/colors.ts": "938c5d44d889fb82eff6c358bea8baa7e85950a16c9f6dae3ec3a7a729164471",
+    "https://deno.land/std@0.175.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
+    "https://deno.land/std@0.175.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
+    "https://deno.land/std@0.175.0/testing/asserts.ts": "984ab0bfb3faeed92ffaa3a6b06536c66811185328c5dd146257c702c41b01ab",
+    "https://deno.land/x/optic@1.3.5/deps.ts": "ceec710d3d45abede3e9209c67b4dcfc31ce962e7a08f4fe4c3eb79e3d6f8fd7",
+    "https://deno.land/x/optic@1.3.5/formatters/color.ts": "16ab0e63ed4ba8e2e52dc07651c8c5dd5d655b343bd402b4765f34aaa7c262ce",
+    "https://deno.land/x/optic@1.3.5/formatters/json.ts": "7aa36973f6984c1a4bfa73da24a84957c1a33e4032586fa3c83d209c88aa0222",
+    "https://deno.land/x/optic@1.3.5/formatters/mod.ts": "98a88ee84b40083c5673f3b95a0c30bad7b9da2d8ccbec87f85efc24b3b4b491",
+    "https://deno.land/x/optic@1.3.5/formatters/simpleDateTimeFormatter.ts": "5e8bc306982988c5a54b27945a0fe4fec77b38083c25d6960bd2eb69d51449d8",
+    "https://deno.land/x/optic@1.3.5/formatters/tokenReplacer.ts": "17a48b7aa99ac48997579ba1afc5a76389ff926822f4e1f3a968374b6d78e8e1",
+    "https://deno.land/x/optic@1.3.5/logger/dedupe.ts": "2e6124a7e1d5c85ad389af651450f50ae19be7bba5211577c9472e7a1f1f6406",
+    "https://deno.land/x/optic@1.3.5/logger/levels.ts": "f8c4d4438c49034679332a6a9a7e76f1f978629d2029a32e519556718088b890",
+    "https://deno.land/x/optic@1.3.5/logger/logRecord.ts": "6ce4053d9f306ba4cae19ccf195a5d3055ecfe697b728b794b1ecebf610ab98b",
+    "https://deno.land/x/optic@1.3.5/logger/logger.ts": "dc4c6c58cc9d5321cda5a11b649207354f2808755141ad24abcef8ebecd40450",
+    "https://deno.land/x/optic@1.3.5/logger/meta.ts": "59cb90177a63ef84e9000d2d4ab61dcdd2b8950179ce0cd44f5bccbe0b774d23",
+    "https://deno.land/x/optic@1.3.5/logger/profileMeasure.ts": "39d8a37badbff2efb91b1cedda9c4e7e7682e7a3b867b510f4fa5f4efd038678",
+    "https://deno.land/x/optic@1.3.5/logger/rateLimitContext.ts": "444d4f267004bc7a538ae6994c9b981f25eb6764e4e5f5e7bbc3a01fb35893e8",
+    "https://deno.land/x/optic@1.3.5/mod.ts": "633754a23b8732760c37324bce8da25f7ecb1fbf2910a529b854682173f2689a",
+    "https://deno.land/x/optic@1.3.5/streams/baseStream.ts": "ece6540105ff0bf16847dcdd6d23620cb75a7a9e0436d0d1eb9a2ef353c1f81a",
+    "https://deno.land/x/optic@1.3.5/streams/consoleStream.ts": "aed2237a126eb21c871e037b82e2b61a68178d4ad61a5b6f07d7e2a0bee1c441",
+    "https://deno.land/x/optic@1.3.5/types.ts": "9787afc1317ac3bed89760b449485f28b18c3d4a58483c558d991bbfe5a74108",
+    "https://deno.land/x/optic@1.3.5/utils/asString.ts": "7e79a4b7318a8754b6088b5ac3e1b8be1936f7d12d133f7292f9295815e8312b",
+    "https://deno.land/x/optic@1.3.5/utils/numberFormatter.ts": "4ea1da25f8d0a1bb7825fd9ff65050f050147ba7e3311ea311947c5293d9897b",
+    "https://deno.land/x/optic@1.3.5/utils/stringify.ts": "330c1fe33fc9265d2e90f7877b518d0956551ad3b7b8130af4adb208c1532a67"
+  },
+  "npm": {
+    "specifiers": {
+      "fast-check@3.6.2": "fast-check@3.6.2",
+      "iter-ops@3.0.7": "iter-ops@3.0.7",
+      "ohm-js@16.6.0": "ohm-js@16.6.0"
+    },
+    "packages": {
+      "fast-check@3.6.2": {
+        "integrity": "sha512-htRkbkw8B1yVfvrLNiJTnpcvpXrdcgpwZUQdC07dsiUGXaHHWK38t6VCnTmAUf68atyos1+XXXY60VUbSgorAQ==",
+        "dependencies": {
+          "pure-rand": "pure-rand@6.0.0"
+        }
+      },
+      "iter-ops@3.0.7": {
+        "integrity": "sha512-D1oYcUhixPfn3vgJ48SQyJQiMSx2XMb7dViEiBLsxiG7VShuyj86RudFhoIMxA6UZMByIt7bYnwHLK5IL5ZSWw==",
+        "dependencies": {}
+      },
+      "ohm-js@16.6.0": {
+        "integrity": "sha512-X9P4koSGa7swgVQ0gt71UCYtkAQGOjciJPJAz74kDxWt8nXbH5HrDOQG6qBDH7SR40ktNv4x61BwpTDE9q4lRA==",
+        "dependencies": {}
+      },
+      "pure-rand@6.0.0": {
+        "integrity": "sha512-rLSBxJjP+4DQOgcJAx6RZHT2he2pkhQdSnofG5VWyVl6GRq/K02ISOuOLcsMOrtKDIJb8JN2zm3FFzWNbezdPw==",
+        "dependencies": {}
+      }
+    }
+  }
+}

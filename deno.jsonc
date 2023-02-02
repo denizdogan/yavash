@@ -1,0 +1,30 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "test": "deno test -A",
+    "bench": "deno bench"
+  },
+  "imports": {
+    "npm//fast-check": "npm:fast-check@3.6.2",
+    "npm//iter-ops": "npm:iter-ops@3.0.7",
+    "npm//ohm-js": "npm:ohm-js@16.6.0",
+    "std//asserts": "https://deno.land/std@0.175.0/testing/asserts.ts",
+    "std//async": "https://deno.land/std@0.175.0/async/mod.ts",
+    "std//flags": "https://deno.land/std@0.175.0/flags/mod.ts",
+    "x//optic": "https://deno.land/x/optic@1.3.5/mod.ts",
+    "x//optic/formatters": "https://deno.land/x/optic@1.3.5/formatters/mod.ts"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "options": {
+      "semiColons": false
+    }
+  },
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
+}
